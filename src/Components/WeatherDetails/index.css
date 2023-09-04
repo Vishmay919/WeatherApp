@@ -1,0 +1,74 @@
+p {
+    font-size: 1.6rem;
+  }
+  
+  h1 {
+    font-size: 6rem;
+  }
+  
+  .main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+  }
+  
+
+  
+  .main .search {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .main input {
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255, 0.8);
+    background: rgba(255,255,255, 0.1);
+    color: #f8f8f8;
+  }
+  
+  ::placeholder {
+    color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 700px;
+    height: 400px;
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .main .top {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  
+  .main .description {
+    position: relative;
+    right: -90%;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+  }
+  
+  .main .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(255,255,255, 0.2);
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
